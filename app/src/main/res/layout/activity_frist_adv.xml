@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:padding="@dimen/w_40"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_200"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="NetzDc网卓触摸大屏广告发布系统"
+        android:textSize="@dimen/w_80"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:id="@+id/tv_daojishi"
+        android:layout_width="@dimen/w_50"
+        android:layout_height="@dimen/h_50"
+        android:background="@drawable/shape_gray_point"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="@dimen/w_30"
+        android:textColor="#ffffff"
+        android:visibility="visible"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_100"
+        android:gravity="left|center"
+        android:layout_alignParentBottom="true"
+        android:text="按OK键位进入工厂模式"
+        android:textSize="@dimen/w_30"
+        android:textColor="#ffffff"
+        />
+</RelativeLayout>
